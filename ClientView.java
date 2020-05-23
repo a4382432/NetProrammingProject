@@ -1,3 +1,5 @@
+package networkProject;
+
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 
@@ -161,31 +163,31 @@ public class ClientView extends JFrame{
 	}
 	public class Event implements MouseListener{
 
-		@Override
+		
 		public void mouseClicked(MouseEvent e) {
 			// TODO Auto-generated method stub
 			setMap(searchTextField.getText());
 		}
 
-		@Override
+		
 		public void mousePressed(MouseEvent e) {
 			// TODO Auto-generated method stub
 			
 		}
 
-		@Override
+		
 		public void mouseReleased(MouseEvent e) {
 			// TODO Auto-generated method stub
 			
 		}
 
-		@Override
+		
 		public void mouseEntered(MouseEvent e) {
 			// TODO Auto-generated method stub
 			
 		}
 
-		@Override
+		
 		public void mouseExited(MouseEvent e) {
 			// TODO Auto-generated method stub
 			
