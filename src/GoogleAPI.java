@@ -32,7 +32,7 @@ public class GoogleAPI {
 	public void downloadMap(String location) {
 		try {
 			int zoomIdx=15;
-			String key="AIzaSyDXuhoT8QDcHfCaCS9ngyuT6AB8fJlB_1Q";
+			String key="";
 			String imageURL="https://maps.googleapis.com/maps/api/staticmap?center="
 			+URLEncoder.encode(location,"UTF-8")+"&zoom="+zoomIdx+"&size=300x300&key="+key;
 			//default zoom is 15 -> proper to see location
